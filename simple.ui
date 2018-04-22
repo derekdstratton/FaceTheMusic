@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>639</width>
-    <height>504</height>
+    <width>2235</width>
+    <height>1767</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -20,10 +20,10 @@
    <widget class="QGroupBox" name="groupBox">
     <property name="geometry">
      <rect>
-      <x>0</x>
-      <y>0</y>
-      <width>621</width>
-      <height>381</height>
+      <x>270</x>
+      <y>130</y>
+      <width>1751</width>
+      <height>1121</height>
      </rect>
     </property>
     <property name="sizePolicy">
@@ -38,36 +38,21 @@
     <widget class="QWidget" name="ImgWidget" native="true">
      <property name="geometry">
       <rect>
-       <x>40</x>
-       <y>20</y>
-       <width>561</width>
-       <height>271</height>
+       <x>-170</x>
+       <y>-10</y>
+       <width>2071</width>
+       <height>1171</height>
       </rect>
-     </property>
-    </widget>
-    <widget class="QTextBrowser" name="songTitle">
-     <property name="geometry">
-      <rect>
-       <x>120</x>
-       <y>300</y>
-       <width>391</width>
-       <height>51</height>
-      </rect>
-     </property>
-     <property name="font">
-      <font>
-       <pointsize>20</pointsize>
-      </font>
      </property>
     </widget>
    </widget>
    <widget class="QPushButton" name="startButton">
     <property name="geometry">
      <rect>
-      <x>10</x>
-      <y>380</y>
-      <width>611</width>
-      <height>81</height>
+      <x>150</x>
+      <y>1490</y>
+      <width>1991</width>
+      <height>151</height>
      </rect>
     </property>
     <property name="font">
@@ -79,14 +64,29 @@
      <string>Take Picture</string>
     </property>
    </widget>
+   <widget class="QTextBrowser" name="songTitle">
+    <property name="geometry">
+     <rect>
+      <x>200</x>
+      <y>1360</y>
+      <width>1881</width>
+      <height>101</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>20</pointsize>
+     </font>
+    </property>
+   </widget>
   </widget>
   <widget class="QMenuBar" name="menubar">
    <property name="geometry">
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>639</width>
-     <height>21</height>
+     <width>2235</width>
+     <height>47</height>
     </rect>
    </property>
   </widget>
