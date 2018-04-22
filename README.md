@@ -1,2 +1,2 @@
 # FaceTheMusic
-President Stratton's interesting attempt at machine learning. Built for the 2018 Reno Hackathon.
+Fred Harris Fan Club's interesting attempt at using machine learning. Built for the 2018 Reno Hackathon.
