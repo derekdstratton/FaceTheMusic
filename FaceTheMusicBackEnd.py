@@ -2,11 +2,9 @@ import requests
 import webbrowser
 
 def calculateSentiment(sentiment_dict):
-  happiness = sentiment_dict["happiness"]
+  happiness = sentiment_dict["happiness"] + sentiment_dict["surprise"]
   neutral = sentiment_dict["neutral"]
-  surprise = sentiment_dict["surprise"]
-  adjustedSentiment = 1.0 - neutral - surprise
-  trueSentiment = happiness / adjustedSentiment
+  trueSentiment = happiness + .5 * neutral
   return trueSentiment
 
 def findMatchingSong(sentiment_val):
@@ -122,6 +120,10 @@ def main():
   openWeb(song_info)
 
   image_path = "happy_picture.png"
+  song_info = returnSong(image_path)
+  openWeb(song_info)
+
+  image_path = "surprised_picture.png"
   song_info = returnSong(image_path)
   openWeb(song_info)
 
